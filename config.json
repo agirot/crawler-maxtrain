@@ -1,0 +1,17 @@
+
+[
+  {
+    "from": "FRPAR",
+    "to": "FRANE",
+    "day": "Friday",
+    "start_watch": "17:30",
+    "end_watch": "23:00"
+  },
+  {
+    "from": "FRANE",
+    "to": "FRPAR",
+    "day": "Monday",
+    "start_watch": "7:00",
+    "end_watch": "9:30"
+  }
+]
