@@ -24,7 +24,7 @@ func Process(watchDay data.WatchDay) error {
 		}
 
 		if len(schedulesFound) > 0 {
-			err := alert.SendAlert(schedulesFound)
+			err := alert.SendAlert(schedulesFound, watchDay)
 			if err != nil {
 				return err
 			}
